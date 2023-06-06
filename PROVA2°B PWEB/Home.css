@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image: url(https://images7.alphacoders.com/526/526775.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url('https://a-static.besthdwallpaper.com/sylvanas-windrunner-fantasy-art-world-of-warcraft-wow-wallpaper-2736x1824-68195_41.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.header-content {
+    padding-top: 100px;
+}
+
+header p {
+    margin-top: 24%;
+}
+
+.navbar {
+    background-color: #9a4adf38;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: fixed;
+}
+
+nav img {
+    width: 150px;
+    height: auto;
+    margin-right: 80%;
+}
+
+
+.navbar-menu {
+    display: flex;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #0000005c;
+    border: none;
+    color: rgb(218, 133, 255);
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #d191ff;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("#");
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf97ff80;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 80%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #00000082;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .button {
+    background-color: #ddd;
+}
+
+.search-bar {
+    width: 150px;
+    height: 30px;
+    margin-left: -800px;
+    border: none;
+    background-color: #00000076;
+    border-radius: 8px;
+    margin: fixed;
+
+}
+
+.areas {
+    background-color: #00000038;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+.loja h2 {
+
+    font-family: var();
+    font-size: larger;
+    font-weight: 400;
+
+
+}
+
+.areas__retangulo {
+    width: 5.375rem;
+    height: 0.438rem;
+    background-color: #000000;
+    margin: auto;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.areas__aba {
+    height: 300px;
+    width: 200px;
+    padding: 15px 20px;
+    background: #e9cefe95;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+
+
+
+}
+
+.areas__aba img {
+    text-align: center;
+    margin: 30px 0px;
+    width: 150px;
+    height: 160px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: var();
+    font-weight: 0px;
+}
+
+.areas__aba__paragrafo {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.1rem;
+    font-family: var();
+    font-weight: 100px;
+    line-height: 1.688rem;
+    margin-top: 5px;
+    margin-bottom: 1.563rem;
+}
+
+h3 {
+    margin-top: -30px;
+}
+
+p {
+    margin-top: -10px;
+
+}
+
+.parágrafo {
+    margin-left: 5px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 8%;
+    color: #dea0ff;
+}
+
+.sistemas .container>p {
+    text-align: center;
+}
+
+.rows-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.row-card-item {
+    background-color: #e5c2ff99;
+    width: 350px;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.row-card-item img {
+    width: 100%;
+    height: auto;
+
+}
+
+.nome-serviço {
+    margin-top: 10%;
+}
+
+footer {
+    background-color: rgba(118, 16, 149, 0.705);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+@media (max-width:947px) {
+
+    header {
+        padding-right: 2px;
+        text-align: left;
+    }
+
+    .areas__titulo h2 {
+        margin-left: -100%;
+        margin-top: 30%;
+    }
+
+    .button {
+        margin-left: -100%;
+    }
+
+    .areas .areas__aba img {
+        display: block;
+    }
+}
+
+@media (max-width:420px) {
+    .button {
+        margin-left: 160px;
+    }
+
+    .search-bar {
+        margin-left: -170px;
+        width: 80px;
+        height: 30px;
+    }
+
+    nav img {
+        width: 130px;
+        height: auto;
+        margin-right: 80%;
+        margin-left: -8px;
+    }
+
+    .areas__aba img {
+        text-align: center;
+        margin: 30px 0px;
+        width: 150px;
+        height: 160px;
+        margin-left: 25px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 35%;
+        font-size: 60px;
+
+    }
+
+}
+
+@media (min-width:820px) {
+    .search-bar {
+        margin-left: -40%;
+    }
+
+    .button {
+        margin-left: -100%;
+    }
+
+}
+
+@media (min-width:280px) {
+    .search-bar {
+        margin-left: -120px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .button {
+        margin-left: 110px;
+
+    }
+
+    .navbar-logo img {
+        width: 100px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width:412px) {
+    .search-bar {
+        margin-left: -190px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .button {
+        margin-left: 200px;
+
+    }
+
+    .navbar-logo img {
+        width: 150px;
+    }
+
+}
+
+@media (min-width:375px) {
+    .button {
+        margin-top: 10px;
+    }
+
+    .button {
+        margin-left: 200px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 130px;
+    }
+
+}
+
+@media (min-width:360px) {
+    .button {
+        margin-top: 1px;
+    }
+
+    .button {
+        margin-left: 180px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 120px;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .button {
+        margin-left: 500px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 120px;
+    }
+
+    .search-bar {
+        width: 100px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 310px;
+    }
+
+    .navbar-logo img {
+        width: 160px;
+    }
+
+    .areas__aba img {
+        margin-left: 20px
+    }
+
+}
+
+@media (min-width:820px) {
+
+    .button {
+        margin-left: 520px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 340px;
+    }
+}
+
+@media (min-width:912px) {
+
+    .button {
+        margin-left: 600px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 380px;
+    }
+}
+
+@media (min-width:540px) {
+
+    .button {
+        margin-left: 300px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 200px;
+    }
+
+    .search-bar {
+        width: 90px;
+    }
+
+    .areas__aba img {
+        margin-left: 25px
+    }
+
+}
+
+@media (width:1280px) {
+
+    .button {
+        margin-left: 1000px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 580px;
+    }
+
+    .search-bar {
+        width: 120px;
+        margin-left: -388px;
+    }
+
+    .areas__aba img {
+        margin-left: 10px
+    }
+
+}
+
+@media (width:1024px) {
+
+    .button {
+        margin-left: 700px;
+    }
+
+    .areas__titulo h2 {
+        margin-left: 440px;
+    }
+
+    .search-bar {
+        width: 120px;
+        margin-left: -388px;
+    }
+
+    .areas__aba img {
+        margin-left: 10px
+    }
+
+}
